@@ -1,0 +1,437 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+/* Menu */
+.header {
+    background-color: #fff;
+  position: fixed;
+   z-index: 1;
+}
+.header .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 60px;
+    min-height: 90px;
+  
+}
+.header h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #336633;
+    transition: 0.3s;
+    margin-top: 20px;
+
+
+
+}
+.header a:hover h1 {
+    color: #00b779;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin: 22px 0;
+    
+}
+
+
+
+
+
+/* HERO */
+.hero { 
+    grid-area: hero;
+    height: 89vh;
+    background: url('../img/background-head.png') center center no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero__title {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.hero:after{
+    content: url('../images/seta_preta.png');
+    position: absolute;
+    height: 35px;
+    bottom: 40px;
+    animation: downarrow 0.6 infinite alternate ease-in-out;}
+@-webkit-keyframes downarrow {
+    0%{-webkit-transform: translateY(0);}
+    100%{-webkit-transform: translateY(2em);}
+}
+@media(max-width:425px){
+    .hero {
+        height:  60vh;
+    }
+    .hero__title{
+        font-size: 2.5rem;
+    }}
+
+    /* Serviços */
+.serviços__header__itens{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.serviços__header__titulo {
+    color: #00b779;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 90px;
+
+}
+.serviços{
+    background-color: #E3E9E4;
+}
+
+.serviços__header__subtitulo {
+    font-size:26.944px;
+    padding: 8px;
+    line-height: 32px;
+    color: #2d2d2d;
+
+}
+
+.serviços__itens {
+    display: grid;
+
+
+}
+
+.serviços__img{
+    border-radius: 16px;
+    box-shadow:rgba(55, 99, 244, 0.15) 0px 8px 16px 0px ;
+    width: 440px;
+    height: 286px;
+    margin-top: 56px;
+    margin-left: 65px;
+    
+}
+.serviços__img__2{
+border-radius: 16px;
+    box-shadow:rgba(55, 99, 244, 0.15) 0px 8px 16px 0px ;
+    width: 350px;
+    height: 445px;
+    margin-top: 56px;
+    margin-right: 100px;
+    margin: ;
+
+
+
+}
+.serviços__img__3{
+    border-radius: 16px;
+        box-shadow:rgba(55, 99, 244, 0.15) 0px 8px 16px 0px ;
+        width: 440px;
+        height: 319px;
+        margin-top: 56px;
+        
+        margin-left: 65px;
+    
+    
+    
+    }
+
+.serviços__informação {
+    display: flex;
+    justify-content: center;
+    align-item;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 48px;
+    margin-right: 100px;
+    
+}
+.serviços__box{
+    display: flex;
+    align-content: flex-start;
+     }
+.serviços__box2{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    margin-left: 66px;
+    margin-right: 40px;
+    margin-top: 5px;
+    align-items: center;
+}
+.serviços__box3{ 
+    display: flex;
+    align-content: flex-start;
+    
+    
+    
+    
+
+
+
+}
+
+
+
+
+
+.serviços__informação__titulo{
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: start;
+    color: #2d2d2d;
+  
+
+}
+.serviços__informação__descrição {
+    margin-bottom: 24px;
+    line-height: 25.6px;
+    color: #4e5d78;
+    font-weight: 500;
+    font-size: 17px;
+}
+.serviços__informação__descrição2 {
+    margin-bottom: 24px;
+    line-height: 25.6px;
+    color: #4e5d78;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 24px;
+
+}
+
+
+.serviços__btn {
+    padding: 9px 32px;
+    border-radius: 32px;
+    background-color: #2a760a;
+    color: white;
+    box-shadow: rgba(55, 99, 244, 0.15) 0px 8px 16px 0px;
+    font-weight: bold;
+    line-height: 25.6px;
+    width: 150px;
+    height: 46px;
+    font-size: 16px;
+    }
+
+    /* Sobre Nós */
+
+ .sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+ }   
+.sobre__imagem img {
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+    
+   
+
+
+
+
+}
+.sobre__imagem{
+    border-radius: 16px;
+    margin-left: 50px;
+    margin-top: 280px;
+}
+.sobre__imagem__fabio{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 16px;
+    width: 250px;
+    height: 390px;
+
+
+}
+
+.sobre_texto {
+    width:550px;
+    max-width: 100%;
+    padding: 0 10px;
+
+
+
+}
+.sobre__conteúdo {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+}
+
+.sobre_texto h1 {
+    color: #caa14d;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+
+
+}
+.sobre_texto h5{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+
+} 
+.sobre_texto p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+
+
+}
+.sobre__btn {
+    background-color:  #2a760a;
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+
+
+
+}
+.sobre__btn:hover{
+    transform: scale(1.2);
+    border: 2px solid #2a760a;
+    color: #2a760a;
+    transition: .4s;
+    cursor: pointer;
+    background-color: transparent;
+
+
+}
+.time{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+   
+    line-height: 30px;
+
+}
+.time__img{
+    border-radius: 16px;
+
+}
+.time p{
+    
+    
+    font-size: 19px;
+    
+    margin-left: 15px;
+    
+}
+@media screen and (max-width: 1180px){
+    .sobre{
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+@media screen and (max-width: 650px){
+    .sobre__imagem img{
+        margin-bottom: 35px;
+        border-radius: 16px;
+    }
+    .sobre_texto h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+
+    }
+}
+/* Curso Ayurveda */
+.curso-ayurveda{
+    background-color: #E3E9E4;
+}
+.curso-ayurveda h2 {
+    font-size: 42px;
+    margin: 52px 8px;
+
+
+
+}
+.curso-ayurveda__titulo {
+    color: #caa14d;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+.curso-ayurveda__subtitulo{
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px;
+}
+.card {
+    box-shadow: rgba(95, 39, 188, 0.1) 0px 10px 10px 0px;
+    border-radius: 5px;
+    width: 460px;
+    height: 160px;
+    background-color: #fff;
+    margin: 20px 20px;
+}
+.grid-curso-ayurveda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 20px;
+    font-weight: 600;
+    color: #caa14d;
+
+}
+.numeração {
+    color: #caa14d;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+
+}
+.titulo-imersão-ayurveda {
+    font-size: 36px;
+    font-weight: 600;
+    color: #006666;
+   margin-left: 40px;
+}
+
+.imersão_ayurveda {
+   color: #006666;
+   font-weight: 600;
+   font-size: 19px;
+
+}

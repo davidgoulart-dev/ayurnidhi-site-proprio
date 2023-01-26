@@ -443,3 +443,40 @@ border-radius: 16px;
     color: #caa14d;
     font-weight: 600;
 }
+
+.img__consulta {
+    border-radius: 50%;
+    width: 296px;
+    height: 296px;
+    margin-left: 32px;
+
+}
+.name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #caa14d;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006666;
+    margin-left: 32px;
+    margin-top: 40px;
+}
+.button__consulta {
+    background-color: #caa14d;
+    color: #fff;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 32px;
+    margin-top: 20px;
+    
+
+
+}

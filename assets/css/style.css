@@ -436,6 +436,10 @@ border-radius: 16px;
 
 }
 /* Consultas */
+.consulta {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
 .titulo__consulta {
     font-size: 42px;
     margin: 52px 8px;

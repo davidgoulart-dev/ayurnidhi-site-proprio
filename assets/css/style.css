@@ -330,7 +330,16 @@ border-radius: 16px;
     height: 160px;
     background-color: #fff;
     margin: 20px 20px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .card span{
+        font-size: 19px;
+        font-weight: 600;
+        color: #006666;
+        margin-left: 20px;
+    }
 .grid-curso-ayurveda {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -342,11 +351,7 @@ border-radius: 16px;
     color: #caa14d;
 
 }
-.numeração {
-    color: #caa14d;
-    font-size: 26px;
-    line-height: 40px;
-    font-weight: 600;
+
 
 }
 .titulo-imersão-ayurveda {

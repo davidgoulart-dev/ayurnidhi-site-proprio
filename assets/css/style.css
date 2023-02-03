@@ -228,109 +228,39 @@ border-radius: 16px;
     }
 
     /* Sobre Nós */
+.quem-somos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 
- .sobre {
-    width: 100%;
-    height: 800px;
+}
+.img__quem-somos{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: ;
-    margin-bottom: 20px;
-
-
-
- }   
-.sobre__imagem img {
-    height: auto;
-    width: 600px;
-    max-width: 100%;
-    
-   
-
-
-
-
-}
-.sobre__imagem{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
     border-radius: 16px;
-    margin-left: 50px;
-    margin-top: 280px;
+    box-shadow: rgba(55, 99, 244, 0.15) 0px 8px 16px 0px;
 }
-.sobre__imagem__fabio{
-   
-
-
-}
-
-.sobre_texto {
-    width:550px;
-    max-width: 100%;
-    padding: 0 10px;
-
-
-
-}
-.sobre__conteúdo {
-    width: 1280px;
-    max-width: 95%;
-    margin: 0 auto;
+.nome_quem-somos {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-
-
-}
-
-.sobre_texto h1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
     color: #caa14d;
-    font-size: 85px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-
-
-
-}
-.sobre_texto h5{
-    font-size: 25px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-
-
-} 
-.sobre_texto p{
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    margin-bottom: 45px;
-
-
-}
-.sobre__btn {
-    background-color:  #2a760a;
-    color: white;
-    border: 2px solid transparent;
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    font-size: 17px;
+    font-size: 24px;
     font-weight: bold;
-
-
-
-}
-.sobre__btn:hover{
-    transform: scale(1.2);
-    border: 2px solid #2a760a;
-    color: #2a760a;
-    transition: .4s;
-    cursor: pointer;
-    background-color: transparent;
-
+    margin-bottom: 20px;
 
 }
+.texto_quem-somos {
+    font-size: 19px;
+    font-weight: 300;
+
+}
+ 
 .time{
     display: flex;
     justify-content: center;
@@ -432,43 +362,19 @@ border-radius: 16px;
 
 }
 /* Consultas */
-<<<<<<< HEAD
 .consultas__david img {
     max-width: 100%;
     max-height: 100%;
-=======
-.consulta {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-}
-.titulo__consulta {
-    font-size: 42px;
-    margin: 52px 8px;
-    text-align: center;
-    color: #caa14d;
-    font-weight: 600;
-}
-
-.img__consulta {
->>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
     border-radius: 50%;
     width: 296px;
     height: 296px;
     margin-left: 32px;
-<<<<<<< HEAD
-=======
-
->>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
 }
 .name {
     font-size: 22px;
     font-weight: 600;
     color: #caa14d;
     margin-left: 32px;
-<<<<<<< HEAD
-=======
-    margin-top: 20px;
->>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
 }
 .text {
     font-size: 18px;
@@ -476,21 +382,14 @@ border-radius: 16px;
     color: #006666;
     margin-left: 32px;
     margin-top: 40px;
-<<<<<<< HEAD
 }
 .btn {
-=======
-    max-width: 500px;
-}
-.button__consulta {
->>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
     background-color: #caa14d;
     color: #fff;
     border: 2px solid transparent;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 30px;
-<<<<<<< HEAD
     font-size: 17px;
     font-weight: bold;
     margin-left: 32px;
@@ -500,25 +399,4 @@ border-radius: 16px;
     width: 20px;
     height: 20px;
     color: #2a760a;
-=======
-    font-size: 19px;
-    font-weight: bold;
-    margin-left: 32px;
-    margin-top: 40px;
-    
-
-
-}
-.icon {
-    width: 25px;
-    height: 25px;
-}
-.background }{
-    background-color: #E3E9E4;
-}
-.consulta__conteúdo.erika {
-     
-      
-    margin-left: 180px;
->>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
 }

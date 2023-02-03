@@ -432,19 +432,43 @@ border-radius: 16px;
 
 }
 /* Consultas */
+<<<<<<< HEAD
 .consultas__david img {
     max-width: 100%;
     max-height: 100%;
+=======
+.consulta {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.titulo__consulta {
+    font-size: 42px;
+    margin: 52px 8px;
+    text-align: center;
+    color: #caa14d;
+    font-weight: 600;
+}
+
+.img__consulta {
+>>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
     border-radius: 50%;
     width: 296px;
     height: 296px;
     margin-left: 32px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
 }
 .name {
     font-size: 22px;
     font-weight: 600;
     color: #caa14d;
     margin-left: 32px;
+<<<<<<< HEAD
+=======
+    margin-top: 20px;
+>>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
 }
 .text {
     font-size: 18px;
@@ -452,14 +476,21 @@ border-radius: 16px;
     color: #006666;
     margin-left: 32px;
     margin-top: 40px;
+<<<<<<< HEAD
 }
 .btn {
+=======
+    max-width: 500px;
+}
+.button__consulta {
+>>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
     background-color: #caa14d;
     color: #fff;
     border: 2px solid transparent;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 30px;
+<<<<<<< HEAD
     font-size: 17px;
     font-weight: bold;
     margin-left: 32px;
@@ -469,4 +500,25 @@ border-radius: 16px;
     width: 20px;
     height: 20px;
     color: #2a760a;
+=======
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 32px;
+    margin-top: 40px;
+    
+
+
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.background }{
+    background-color: #E3E9E4;
+}
+.consulta__conteúdo.erika {
+     
+      
+    margin-left: 180px;
+>>>>>>> fd4ad7871d414f3e25f5a345419023f732a2f105
 }

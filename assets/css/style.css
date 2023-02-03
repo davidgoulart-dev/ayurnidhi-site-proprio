@@ -233,6 +233,11 @@ border-radius: 16px;
     grid-template-columns: 1fr 1fr;
 
 }
+.quem-somos p{
+    font-size: 19px;
+    font-weight: 300;
+
+}
 .img__quem-somos{
     display: flex;
     justify-content: center;
@@ -255,17 +260,13 @@ border-radius: 16px;
     margin-bottom: 20px;
 
 }
-.texto_quem-somos {
-    font-size: 19px;
-    font-weight: 300;
 
-}
- 
 .time{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    align-items: center;
+    align-items: ;
+    margin-left: 100px;
    
     line-height: 30px;
 
@@ -279,7 +280,7 @@ border-radius: 16px;
     
     font-size: 19px;
     
-    margin-left: 15px;
+    margin-left: 122px;
     
 }
 @media screen and (max-width: 1180px){

@@ -9,13 +9,16 @@ body {
     background-color: #fff;
   position: fixed;
    z-index: 1;
+   width: 100%;
 }
 .header .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7px 225px;
-    min-height: 90px;
+    padding: 30px 30px;
+    width: 100%;
+    max-width: 1200px;
+    height: 15px;
   
 }
 .header h1{

@@ -204,6 +204,14 @@ border-radius: 16px;
   
 
 }
+.serviços__informação__titulo2 {
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: start;
+    color: #2d2d2d;
+}
 .serviços__informação__descrição {
     margin-bottom: 24px;
     line-height: 25.6px;
@@ -234,6 +242,31 @@ border-radius: 16px;
     height: 46px;
     font-size: 16px;
     }
+    .serviços__btn2 {
+        padding: 9px 32px;
+        border-radius: 32px;
+        background-color: #2a760a;
+        color: white;
+        box-shadow: rgba(55, 99, 244, 0.15) 0px 8px 16px 0px;
+        font-weight: bold;
+        line-height: 25.6px;
+        width: 150px;
+        height: 46px;
+        font-size: 16px;
+        }
+        .serviços__btn3 {
+            padding: 9px 32px;
+            border-radius: 32px;
+            background-color: #2a760a;
+            color: white;
+            box-shadow: rgba(55, 99, 244, 0.15) 0px 8px 16px 0px;
+            font-weight: bold;
+            line-height: 25.6px;
+            width: 150px;
+            height: 46px;
+            font-size: 16px;
+            }
+    
 
     /* Sobre Nós */
 .quem-somos{
@@ -432,6 +465,64 @@ border-radius: 16px;
     }.serviços__box{
         display: block;
     }
+    .serviços__img{
+        display: flex;
+        margin-left: 20px;
+
+    }
+    .serviços__informação__titulo{
+        margin-left: 70px;
+        width: 100%;
+    }
+    .serviços__informação__descrição{
+        margin-left: 70px;
+        width: 100%;
+    }
+    .serviços__btn{
+        margin-left: 70px;
+        width: 100%;
+    }
+    .serviços__box2 {
+        display: block;
+    }
+    .serviços__img2{
+        display: flex;
+        ;
+    }
+    .serviços__btn2{
+        
+        margin-left: 0px;
+        margin-right: 100px;
+        width: 100%;
+    }
+    .serviços__informação__titulo2{
+        margin-left: 70px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .serviços__box3 {
+        display: block;
+    }
+    .serviços__img__3{
+        display: flex;
+        margin-left: 0px;
+    }
+    .serviços__btn3{
+        margin-left: 0px;
+        width: 100%;
+        
+    }
+    .quem-somos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img__quem-somos{
+        display: flex;
+        margin-left: 65px;
+    }
+
+
+
 
 
    

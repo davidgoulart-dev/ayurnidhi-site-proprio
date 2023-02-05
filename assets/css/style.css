@@ -520,6 +520,25 @@ border-radius: 16px;
         display: flex;
         margin-left: 65px;
     }
+    .nome_quem-somos{
+        margin-top: 0px;
+    }
+    .time {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        
+    }
+    .time__img{
+        display: flex;
+       margin: 25px auto;
+        height: 300px;
+        width: 400px;
+    }
+    .time p {
+        margin: 25px auto;
+    }
+
 
 
 

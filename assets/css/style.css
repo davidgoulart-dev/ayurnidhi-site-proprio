@@ -388,7 +388,22 @@ border-radius: 16px;
 
 }
 /* Consultas */
-.consultas__david img {
+.consulta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+
+}
+.consulta__conteúdo{
+    margin-left: 100px;
+
+
+}
+.consulta__conteúdo__erika{
+    margin-left: 200px;
+}
+.img__consulta {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
@@ -408,8 +423,9 @@ border-radius: 16px;
     color: #006666;
     margin-left: 32px;
     margin-top: 40px;
+    max-width: 500px;
 }
-.btn {
+.button__consulta {
     background-color: #caa14d;
     color: #fff;
     border: 2px solid transparent;

@@ -398,6 +398,7 @@ border-radius: 16px;
 .consulta__conteúdo{
     margin-left: 100px;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 
 }
@@ -410,8 +411,9 @@ border-radius: 16px;
     margin-top: 30px;
 }
 .consulta__conteúdo__erika{
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 .img__consulta {
     max-width: 100%;

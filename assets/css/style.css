@@ -622,6 +622,57 @@ border-radius: 16px;
         color: #caa14d;
         margin-left: 0px;
     }
+    .text {
+        font-size: 18px;
+        font-weight: 600;
+        color: #006666;
+        margin-left: 0px;
+        margin-top: 40px;
+        max-width: 500px;
+    }
+    .button__consulta {
+        background-color: #caa14d;
+        color: #fff;
+        border: 2px solid transparent;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-top: 40px;
+        cursor: pointer;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .button__consulta:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 2px solid #caa14d;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border-radius: 30px;
+    }
+    .button__consulta:hover:before{
+        opacity: 1;
+        animation: pulse 1s infinite;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+        color: #2a760a;
+    }
+    
+
+
 }
 
 

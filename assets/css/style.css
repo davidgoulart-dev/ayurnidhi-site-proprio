@@ -581,6 +581,47 @@ border-radius: 16px;
     .time p {
         margin: 25px auto;
     }
+    .consulta {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .consulta__conteúdo{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        order: 1;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+    .consulta__conteúdo__erika{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        order: 0;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .img__consulta {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+        width: 296px;
+        height: 296px;
+        margin-left: 0px;
+    }
+    .name {
+        font-size: 22px;
+        font-weight: 600;
+        color: #caa14d;
+        margin-left: 0px;
+    }
 }
 
 

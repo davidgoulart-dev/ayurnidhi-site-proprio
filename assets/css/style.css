@@ -399,6 +399,8 @@ border-radius: 16px;
     margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
+    order: 1;
+    
 
 
 }
@@ -414,6 +416,8 @@ border-radius: 16px;
     margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 30px;
+    order: 0;
+    
 }
 .img__consulta {
     max-width: 100%;
